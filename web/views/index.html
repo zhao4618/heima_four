@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博学谷</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_3219618_ypfx26dcdr.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <a href="javascript:;" class="email">
+            <img src="./images/邮件.png" alt="">
+        </a>
+        <h1 class="logo">
+            <a href="javascript:;">
+                <img src="./images/headerLogo.png" alt=""></a>
+        </h1>
+        <a href="javascript:;">
+            <i class="iconfont icon-fangdajing"></i>
+        </a>
+    </header>
+    <!-- banner区域 -->
+    <div class="banner">
+        <a href="javascript:;">
+            <img src="./images/FE.png" alt="">
+        </a>
+    </div>
+    <!-- 图标导航 -->
+    <div class="nav">
+        <div class="head">
+            <i class="dot"></i>
+            <h2>就业课</h2>
+            <i class="dot"></i>
+        </div>
+        <div class="nav_pic">
+            <ul>
+                <li>
+                    <a href="javascript:;"><img src="./images/fe-list.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="./images/java.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="./images/data.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="./images/python.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="./images/ui.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="./images/fe-list.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 微课区 -->
+    <div class="course">
+        <div class="head">
+            <i class="dot"></i>
+            <h2>微 课</h2>
+            <i class="dot"></i>
+        </div>
+        <div class="lists" id="list">
+
+        </div>
+    </div>
+    <!-- 底部导航栏 -->
+    <footer>
+        <div>
+            <a href="./index.html">
+                <i class="iconfont icon-shouye"></i>
+                <p>首页</p>
+            </a>
+        </div>
+        <div>
+            <a href="./cate_gory.html">
+                <i class="iconfont icon-fenlei1-xianxing"></i>
+                <p>分类</p>
+            </a>
+        </div>
+    </footer>
+    <!-- 模板引擎渲染页面 -->
+    <script type="text/html" id="lesson_content">
+        <ul>
+            {{each data}}
+            <li>
+                <a href="javascript:;">
+                    <img src="{{$value.img}}" alt="" />
+                    <h2>{{$value.name}}</h2>
+                    <div class="content">
+                        <span class="people"><i>{{$value.count}}</i>人学习</span>
+                        <span class="money">￥<i>{{$value.price}}</i></span>
+                    </div>
+                </a>
+            </li>
+            {{/each}}
+        </ul>
+    </script>
+    <script src="./js/flexble.js"></script>
+    <script src="./jquery-3.5.1.js"></script>
+    <script src="./js/template-web.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

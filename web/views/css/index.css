@@ -1,0 +1,190 @@
+/* 头部区域 */
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 1.7067rem;
+    background-color: #446ADF;
+}
+
+header .email img {
+    width: 1.0667rem;
+    height: .8rem;
+}
+
+header i.iconfont {
+    font-size: .8rem;
+    color: #fff;
+}
+
+
+/* banner区域 */
+
+.banner {
+    padding-top: 1.7067rem;
+    margin-bottom: .4267rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 4.5333rem;
+}
+
+
+/* 图标导航 */
+
+.nav {
+    margin-bottom: .4267rem;
+    height: 6.4533rem;
+    background-color: #fff;
+}
+
+.nav .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .6933rem;
+    height: .7467rem;
+}
+
+.nav .head h2 {
+    margin: 0 .2667rem;
+    font-size: .48rem;
+    font-weight: 400;
+    color: #446ADF;
+}
+
+.nav .head .dot {
+    border-radius: 50%;
+    width: .1333rem;
+    height: .1333rem;
+    background-color: #446ADF;
+}
+
+.nav .nav_pic ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav .nav_pic ul li {
+    text-align: center;
+    margin-bottom: .8rem;
+    width: 33%;
+}
+
+.nav .nav_pic ul li img {
+    border-radius: 50%;
+    width: 1.8667rem;
+    height: 1.8667rem;
+}
+
+
+/* 微课区 */
+
+.course {
+    background-color: #fff;
+    padding-bottom: 1.5467rem;
+}
+
+.course .head {
+    display: flex;
+    margin-bottom: .5333rem;
+    padding-top: .5333rem;
+    justify-content: center;
+    align-items: center;
+    height: .7467rem;
+}
+
+.course .head h2 {
+    margin: 0 .2667rem;
+    font-size: .48rem;
+    font-weight: 400;
+    color: #446ADF;
+}
+
+.course .head .dot {
+    border-radius: 50%;
+    width: .1333rem;
+    height: .1333rem;
+    background-color: #446ADF;
+}
+
+.course .lists {
+    padding: .16rem;
+}
+
+.course .lists ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course .lists ul li {
+    padding-right: .2133rem;
+    margin-bottom: .2667rem;
+    width: 50%;
+    height: 4.5333rem;
+}
+
+.course .lists ul li h2 {
+    margin-top: .1333rem;
+    margin-bottom: .32rem;
+    font-size: 16px;
+}
+
+.course .lists .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course .lists .content .people {
+    color: #d0d0d0;
+    font-size: .3733rem;
+}
+
+.course .lists .content .money {
+    color: #446ADF;
+    font-size: .3733rem;
+}
+
+.course .lists ul li:nth-child(2n) {
+    padding-right: 0;
+}
+
+.course .lists ul li img {
+    border-radius: .16rem;
+    width: 100%;
+    height: 2.6667rem;
+}
+
+
+/* 底部导航 */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: .2667rem 1.0667rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.5467rem;
+    background-color: #fff;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div .iconfont {
+    font-size: .6933rem;
+    color: #446ADF;
+}
+
+footer div p {
+    margin-top: .1333rem;
+    color: #446ADF;
+}

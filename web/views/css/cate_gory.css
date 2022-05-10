@@ -1,0 +1,139 @@
+/* 头部 */
+
+header {
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    padding: 0 .5333rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1.76rem;
+    line-height: 1.76rem;
+    background-color: #fff;
+    margin-bottom: .8rem;
+}
+
+header .logo img {
+    width: 2.8267rem;
+    height: .8533rem;
+}
+
+header span {
+    margin-left: 1.5333rem;
+    font-size: .6933rem;
+    font-weight: 700;
+    color: #28abfc;
+}
+
+
+/* 内容 */
+
+.current {
+    background-color: #fff;
+    border-left: .0533rem solid #28abfc;
+}
+
+.content_box {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    margin-top: 2.1867rem;
+    background-color: #fff;
+}
+
+.content_box .content_left {
+    overflow-y: scroll;
+    position: fixed;
+    padding-bottom: 1.5467rem;
+    width: 2.72rem;
+    text-align: center;
+    top: 2.1867rem;
+    bottom: 0;
+    background-color: #f5f5f5;
+}
+
+.content_box .content_left ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 1.4933rem;
+    font-size: .4267rem;
+    color: #333;
+}
+
+.content_box .content_right {
+    display: none;
+    flex: 1;
+    padding-left: .1333rem;
+    padding-bottom: 1.5467rem;
+    margin-left: 2.72rem;
+    background-color: #fff;
+}
+
+.content_box .content_right .pic {
+    position: relative;
+    margin-bottom: .32rem;
+}
+
+.content_box .content_right h2 {
+    margin: .32rem 0;
+    font-size: 18px;
+    color: #28abfc;
+}
+
+.content_box .content_right i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: .3733rem;
+}
+
+.content_box .content_right li a {
+    border-radius: .1333rem;
+    height: .96rem;
+    padding: .2667rem .4rem;
+    margin-right: .4rem;
+    border: 1px solid #ccc;
+    color: #c0c0c0;
+}
+
+.content_box .content_right li:first-child {
+    margin-top: .4267rem;
+}
+
+.content_box .content_right li {
+    height: .96rem;
+    margin: .5333rem 0;
+}
+
+
+/* 底部 */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: .2667rem 1.0667rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.5467rem;
+    background-color: #fff;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div .iconfont {
+    font-size: .6933rem;
+    color: #446ADF;
+}
+
+footer div p {
+    margin-top: .1333rem;
+    color: #446ADF;
+}
